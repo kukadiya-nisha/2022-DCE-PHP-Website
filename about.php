@@ -1,5 +1,6 @@
 <?php 
 include_once('guest_header.php');
+//contact.php
 $select="select * from about";
 $result=$con->query($select);
 $row=$result->fetch_assoc();
